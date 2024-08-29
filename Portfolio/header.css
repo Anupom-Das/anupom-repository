@@ -1,0 +1,135 @@
+
+
+.nav{ 
+    padding-top: 30px;
+     display: flex;
+     gap:20px;
+    color:var(--font-primary-color);
+    justify-content: space-between;
+    font-size: 36px;
+}
+
+.header-container{
+    
+    height: 100%;
+    background-color: var(--background-color);
+    background-image: url("./blue_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 350px 750px;
+
+ 
+}
+
+#icon-pic-id{
+    width :180px;
+    text-align: right;
+}
+
+
+
+.baner-title h1{
+    font-weight: bolder;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin:10px 0px;
+}
+.baner-description{
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:10px 0px;
+}
+
+.baner-profile-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.baner-profile-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.work-icon-container{
+    display: flex;
+    gap:10px;
+    padding:0px 0px;
+}
+
+.cheac-icon{
+    width: 40px;
+    height: 30px;
+}
+
+.baner-img-container{
+    
+    width:fit-content;
+}
+
+.pic{
+   
+    height:400px;
+}
+
+.complete-project-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card h1{
+    font-size:100px;
+}
+
+.card p{
+    font-size: 20px;
+
+}
+
+
+
+@media only screen and (min-width : 200px)  and (max-width :576px)
+{
+    .container{
+        padding: 0px 0px;
+    }
+    
+    
+    .nav{
+        color: red;
+        font-size: 16px;
+    }
+    .complete-project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .baner-title h1{
+    
+        font-size: 45px;
+        
+    }
+
+    .baner-profile-container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .baner-img-container{
+    
+        width:100%;
+    }
+
+    .pic{
+   
+        width:100%;
+    }
+    
+}
+
+

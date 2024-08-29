@@ -1,0 +1,317 @@
+.all-expertise-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
+
+
+
+
+.project-container-skils h1{
+    font-size: 2rem;
+    color: black;
+}
+
+
+
+.projects-skills{
+    
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+    gap: 20px 0px;
+    
+
+}
+
+.project-sk img{
+ width:300px;
+ height: 300px;
+}
+
+
+.section-title{
+    padding: 20px;
+    margin:10px;
+    font-size: 30px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap:20px;
+}
+
+.project img{
+    width:100%;
+}
+
+.cheack-all-projects button{
+    padding: 15px 50px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-top: 1px solid white;
+}
+
+.cheack-all-projects{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.tag{
+    background-color: white;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+
+.tag h1{
+    color: black;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+.date-name{
+    display: flex;
+    gap:5px;
+
+}
+
+.round-date{
+    width: 5px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.round-name{
+    width: 5px;
+    height: 10px;
+    background-color:black;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+.blog-title{
+    margin: 10px 0px;
+    font-size: .75rem;
+}
+
+.my-blogs{
+    
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+}
+
+
+.blog img{
+    height: 200px;
+    width:300px;
+} 
+
+
+
+
+
+
+
+
+.testimonial-title{
+    text-align: center;
+    
+}
+
+.t-h1{
+    font-size: 60px;
+    margin-top: 10px;
+    color: indigo;
+}
+
+.t-p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.all-t-card{
+    display:  flex;
+    gap: 5px;
+}
+
+.left-side-top-card{
+    
+    width:70%;
+   display: flex;
+   flex-direction: column;
+    gap:10px;
+    
+}
+
+
+
+.right-side{
+    width: 30%;
+    background-color: blueviolet;
+}
+
+.t-left-card-title{
+margin-top: 30px;
+font-size: 50px;
+padding: 10px;
+}
+
+.t-left-card-p{
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.left-side-1st-card{
+    display: flex;
+    background-color: indigo;
+    
+}
+
+.right-side-1st-card img{
+    width: 90%;
+    
+}
+
+
+
+
+
+
+
+.awad-container h1{
+    font-size: 2rem;
+    color: black;
+}
+
+
+
+.all-awads{
+    
+    display: grid ;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+    gap: 20px 0px;
+    
+
+}
+
+
+.awad img{
+    width:380px;
+    height: 300px;
+   }
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width:576px){
+
+    .all-expertise-card{
+        grid-template-columns: auto;
+    }
+
+
+    
+    .projects-skills{
+        grid-template-columns: auto ;
+    }
+    
+    .projects{
+        grid-template-columns: auto;
+
+    }
+
+    .my-blogs{
+        grid-template-columns: auto;
+
+    }
+
+    .t-card{
+        flex-direction: column;
+    }
+
+    .left-side-1st-card{
+        flex-direction: column;
+    }
+
+    .left-side-1st-card img {
+        width: 100%;
+    }
+
+     .left-side-1st-card h1 {
+        font-size: 40px;
+     }
+
+    .left-side-top-card {
+        width:100%;
+    }
+
+
+    .right-side img {
+        width: 100%;
+    }
+
+
+    .left-side-top-card{
+    
+        width:50%;
+        
+    }
+     
+    
+    .right-side{
+        width: 50%;
+        
+    }
+
+    
+
+
+    .all-awads{
+        grid-template-columns: auto;
+        
+    }
+
+
+    .all-t-card{
+        grid-template-columns: auto;
+    }
+
+    .awad img{
+        width: 100%;
+    }
+}
+
+
+
